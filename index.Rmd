@@ -47,7 +47,7 @@ This website includes the complaints patterns across NYC changed during the pand
 * Test Independence between Victim Sex and Suspect Sex
 * Test Independence between Victim Race and Suspect Race
 
-**For [Final Project Report](Final_project_report.html)**
+**For [Final Project Report](report.html)**
 
 * Motivation
 * Related Work
