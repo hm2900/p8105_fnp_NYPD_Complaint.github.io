@@ -1,0 +1,51 @@
+---
+title: "About us"
+always_allow_html: true
+output: 
+  html_document:
+    toc: true
+    code_folding: hide
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+### Group members 
+* Binyue Hu bh2849
+* Hengxuan Ma hm2900
+* Xin Ren xr2160
+* Sophie Chen jc5924
+
+### The motivation for this project
+Since gun violence and various incidents happen pretty frequently during pandemic in NYC and we are currently living in such environment. So we are wondering about NYPD's complaints during pandemic and we are also interested in the changing trend in complaints within those two years so that we can get a sense of understanding how safe or dangerous the environment we surrounded across NYC changed during the pandemic.
+
+### The intended final products 
+* A report summarizing analysis results on NYPD's complaints, and comparing the complaint cases across NYC changed during the pandemic.
+* A shiny dashboard providing interactive graphics and web-like applications for people to interact with and details about the relationship between complaints and other variables will be given.
+
+### The anticipated data sources
+* NYPD Complaint Data Historic https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i
+
+### The planned analyses/visualizations/coding challenges
+- The biggest challenge is that there is too much reference data
+- Difficulties in comparing different data tables and clear the data
+- The causes of complaint are too widely distribution
+
+### The planned timeline
+```{r}
+data.frame(Date=c("Nov 8","Nov 8-10","Nov 12","Nov 13-14","Nov 15-18","Nov 30","Dec 4","Dec 10","Dec 10","Dec 12-14","Dec 15"),
+           Description=c("Brainstorm","Together work on proposal","Submit the proposal","Distribute tasks","Project reviewing meeting","Finish the coding part","Start to construct a webpage","Report&webpage and screencast","Peer assessment","Practice for presentation","In class discussion of project"),
+           Due=c("NA","NA","Nov 12 1:00 pm","NA","Nov 15-18","NA","NA","Dec 10 11:59 pm","Dec 10 11:59 pm","NA","Dec 15")) %>% 
+  knitr::kable()
+```
+
+
+
+
+
+
+
+

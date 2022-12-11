@@ -1,0 +1,22 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About Us"
+      href: proposal.html
+    - text: "Descriptive Statistics"
+      href: descriptive_statistics.html
+    - text: "Comparison Patterns"
+      href: patterns.html  
+    - text: "Shiny App"
+      href: shiny_dashboard.html
+    - text: "Additional Analysis"
+      href: regression.html
+    - text: "Final Project Report"
+      href: report.html
+    - icon: fa-github fa-lg
+      href: https://github.com/beryl66666/p8105_fnp_NYPDComplaint.git
+output:
+  html_document:
+    theme: yeti
